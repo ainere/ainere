@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="288" viewBox="0 0 740 288">
+  <defs>
+    <!-- Smooth Dark-to-Light Olive/Forest Green Title Bar Gradient -->
+    <linearGradient id="xpTitleGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A4A15"/>
+      <stop offset="25%" stop-color="#245A1E"/>
+      <stop offset="65%" stop-color="#34742A"/>
+      <stop offset="100%" stop-color="#468C36"/>
+    </linearGradient>
+    
+    <!-- Top Glass Sheen -->
+    <linearGradient id="xpSheen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.30"/>
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Inset Console Shadow -->
+    <filter id="consoleInset" x="-2%" y="-2%" width="104%" height="104%">
+      <feOffset dx="0" dy="2"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0   0 0 0 0.6 0"/>
+      <feBlend mode="multiply" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+
+  <!-- ==================== OUTER WINDOW FRAME ==================== -->
+  <rect x="1" y="1" width="738" height="286" fill="#ece9d8" rx="4" ry="4"/>
+  
+  <!-- Outer bevel highlights -->
+  <path d="M1,5 A4,4 0 0,1 5,1 L735,1 A4,4 0 0,1 739,5 L739,287 L1,287 Z" 
+        fill="none" stroke="#ffffff" stroke-width="1.5"/>
+  <path d="M2,287 L738,287 L738,5 A4,4 0 0,0 735,2 L5,2 A4,4 0 0,0 2,5 Z" 
+        fill="none" stroke="#888888" stroke-width="1.2"/>
+
+  <!-- ==================== TITLE BAR (Height 27px, vertically centered) ==================== -->
+  <rect x="3" y="3" width="734" height="27" fill="url(#xpTitleGrad)" rx="3" ry="3"/>
+  <rect x="3" y="3" width="734" height="13" fill="url(#xpSheen)" rx="3" ry="3"/>
+  <line x1="5" y1="3.5" x2="735" y2="3.5" stroke="#8AE070" stroke-width="1" stroke-opacity="0.8"/>
+  <line x1="3" y1="30" x2="737" y2="30" stroke="#163810" stroke-width="1"/>
+
+  <!-- Retro CRT Terminal Icon (Vertically centered at y=8.5) -->
+  <g transform="translate(8, 8.5)" shape-rendering="crispEdges">
+    <rect x="0" y="0" width="18" height="16" fill="#D4D0C8"/>
+    <line x1="0" y1="0" x2="18" y2="0" stroke="#FFFFFF"/>
+    <line x1="0" y1="0" x2="0" y2="16" stroke="#FFFFFF"/>
+    <line x1="18" y1="0" x2="18" y2="16" stroke="#404040"/>
+    <line x1="0" y1="16" x2="18" y2="16" stroke="#404040"/>
+    
+    <!-- Screen -->
+    <rect x="2" y="2" width="14" height="12" fill="#000000"/>
+    
+    <!-- Phosphor-Green Prompt (>_) -->
+    <rect x="4" y="4.5" width="1.5" height="1.5" fill="#00FF66"/>
+    <rect x="5.5" y="6" width="1.5" height="1.5" fill="#00FF66"/>
+    <rect x="7" y="7.5" width="1.5" height="1.5" fill="#00FF66"/>
+    <rect x="5.5" y="9" width="1.5" height="1.5" fill="#00FF66"/>
+    <rect x="4" y="10.5" width="1.5" height="1.5" fill="#00FF66"/>
+    <rect x="9.5" y="10.5" width="4.5" height="1.5" fill="#00FF66"/>
+  </g>
+  
+  <!-- Window Title (Vertically aligned) -->
+  <text x="32" y="20.5" font-family="'Segoe UI', Tahoma, sans-serif" 
+        font-size="12" font-weight="600" fill="#ffffff" letter-spacing="0.2"
+        style="text-shadow: 1px 1px 1px #11280E;">
+    C:\WINDOWS\system32\cmd.exe
+  </text>
+
+  <!-- ==================== RETRO 16-BIT 3D CONTROLS (Flushed to right, centered at y=8.5) ==================== -->
+  <g transform="translate(674, 8.5)" shape-rendering="crispEdges">
+    <!-- Minimize Button -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="18" height="16" fill="#D4D0C8"/>
+      <line x1="0" y1="0" x2="18" y2="0" stroke="#FFFFFF"/>
+      <line x1="0" y1="0" x2="0" y2="16" stroke="#FFFFFF"/>
+      <line x1="1" y1="15" x2="17" y2="15" stroke="#808080"/>
+      <line x1="17" y1="1" x2="17" y2="15" stroke="#808080"/>
+      <line x1="0" y1="16" x2="18" y2="16" stroke="#000000"/>
+      <line x1="18" y1="0" x2="18" y2="16" stroke="#000000"/>
+      <!-- Minus symbol -->
+      <rect x="5" y="11" width="7" height="2" fill="#000000"/>
+    </g>
+    
+    <!-- Maximize Button -->
+    <g transform="translate(20, 0)">
+      <rect x="0" y="0" width="18" height="16" fill="#D4D0C8"/>
+      <line x1="0" y1="0" x2="18" y2="0" stroke="#FFFFFF"/>
+      <line x1="0" y1="0" x2="0" y2="16" stroke="#FFFFFF"/>
+      <line x1="1" y1="15" x2="17" y2="15" stroke="#808080"/>
+      <line x1="17" y1="1" x2="17" y2="15" stroke="#808080"/>
+      <line x1="0" y1="16" x2="18" y2="16" stroke="#000000"/>
+      <line x1="18" y1="0" x2="18" y2="16" stroke="#000000"/>
+      <!-- Window frame symbol with thick header -->
+      <rect x="4" y="3.5" width="9" height="9" fill="none" stroke="#000000" stroke-width="1"/>
+      <rect x="4" y="3.5" width="9" height="2.5" fill="#000000"/>
+    </g>
+    
+    <!-- Close Button (All-Gray 3D Bevel with Pixel Black X) -->
+    <g transform="translate(40, 0)">
+      <rect x="0" y="0" width="18" height="16" fill="#D4D0C8"/>
+      <line x1="0" y1="0" x2="18" y2="0" stroke="#FFFFFF"/>
+      <line x1="0" y1="0" x2="0" y2="16" stroke="#FFFFFF"/>
+      <line x1="1" y1="15" x2="17" y2="15" stroke="#808080"/>
+      <line x1="17" y1="1" x2="17" y2="15" stroke="#808080"/>
+      <line x1="0" y1="16" x2="18" y2="16" stroke="#000000"/>
+      <line x1="18" y1="0" x2="18" y2="16" stroke="#000000"/>
+      <!-- Pixel X -->
+      <rect x="5" y="4.5" width="2" height="1" fill="#000000"/>
+      <rect x="11" y="4.5" width="2" height="1" fill="#000000"/>
+      <rect x="6" y="5.5" width="2" height="1" fill="#000000"/>
+      <rect x="10" y="5.5" width="2" height="1" fill="#000000"/>
+      <rect x="7" y="6.5" width="4" height="2" fill="#000000"/>
+      <rect x="6" y="8.5" width="2" height="1" fill="#000000"/>
+      <rect x="10" y="8.5" width="2" height="1" fill="#000000"/>
+      <rect x="5" y="9.5" width="2" height="1" fill="#000000"/>
+      <rect x="11" y="9.5" width="2" height="1" fill="#000000"/>
+    </g>
+  </g>
+
+  <!-- ==================== MENU BAR ==================== -->
+  <rect x="3" y="30" width="734" height="20" fill="#ece9d8"/>
+  <line x1="3" y1="50" x2="737" y2="50" stroke="#b0aba0" stroke-width="1"/>
+  
+  <g font-family="'Segoe UI', Tahoma, sans-serif" font-size="11" fill="#000000">
+    <text x="8" y="44">File</text>
+    <text x="34" y="44">Edit</text>
+    <text x="60" y="44">View</text>
+  </g>
+
+  <!-- ==================== CLIENT AREA (Console Screen, Compacted Height) ==================== -->
+  <rect x="4" y="51" width="714" height="213" fill="#000000" filter="url(#consoleInset)"/>
+  
+  <line x1="4" y1="51" x2="718" y2="51" stroke="#333" stroke-width="1"/>
+  <line x1="4" y1="51" x2="4" y2="264" stroke="#333" stroke-width="1"/>
+  <line x1="718" y1="51" x2="718" y2="264" stroke="#111" stroke-width="1"/>
+  <line x1="4" y1="264" x2="718" y2="264" stroke="#111" stroke-width="1"/>
+
+  <!-- ==================== CONSOLE TEXT ==================== -->
+  <g font-family="'Lucida Console', 'Consolas', 'Courier New', monospace" 
+     font-size="13" fill="#FFFFFF">
+    
+    <!-- Version banner -->
+    <text x="16" y="70" fill="#CCCCCC">Microsoft Windows XP [Version 5.1.2600]</text>
+    <text x="16" y="87" fill="#CCCCCC">(C) Copyright 1985-2001 Microsoft Corp.</text>
+    
+    <!-- Command 1: type information.txt -->
+    <text x="16" y="113">
+      <tspan fill="#CCCCCC">C:\Documents and Settings\Kan&gt;</tspan>type information.txt
+    </text>
+    <text x="16" y="132">Elkan Ainer M. La Madrid [Kan]</text>
+    <text x="16" y="150">Aspiring software engineer exploring AI/ML, GPU architecture &amp; CUDA.</text>
+
+    <!-- Command 2: type academics.txt -->
+    <text x="16" y="176">
+      <tspan fill="#CCCCCC">C:\Documents and Settings\Kan&gt;</tspan>type academics.txt
+    </text>
+    <text x="16" y="195">De La Salle University</text>
+    <text x="16" y="213">BS Computer Science — Major in Software Technology</text>
+
+    <!-- Command 3: Active prompt (Clean 1-line spacing to bottom) -->
+    <text x="16" y="242">
+      <tspan fill="#CCCCCC">C:\Documents and Settings\Kan&gt;</tspan><tspan fill="#FFFFFF" font-weight="bold">▌<animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></tspan>
+    </text>
+  </g>
+
+  <!-- ==================== SCROLLBARS (Proportionate & Correct Arrow Directions) ==================== -->
+  <!-- Vertical scrollbar (right side) -->
+  <g transform="translate(718, 51)">
+    <rect width="17" height="213" fill="#ece9d8" stroke="#aaa" stroke-width="1"/>
+    <!-- Top arrow button (points UP) -->
+    <rect width="17" height="17" fill="#ece9d8" stroke="#888"/>
+    <polygon points="5,11 12,11 8.5,6" fill="#333"/>
+    <!-- Bottom arrow button (points DOWN) -->
+    <rect y="196" width="17" height="17" fill="#ece9d8" stroke="#888"/>
+    <polygon points="5,202 12,202 8.5,207" fill="#333"/>
+    <!-- Thumb handle -->
+    <rect x="2" y="22" width="13" height="42" fill="#d4d0c8" stroke="#999" rx="1"/>
+    <rect x="3" y="23" width="11" height="20" fill="#ffffff" opacity="0.4" rx="1"/>
+  </g>
+
+  <!-- Horizontal scrollbar (bottom, sitting flush with prompt padding) -->
+  <g transform="translate(4, 264)">
+    <rect width="714" height="17" fill="#ece9d8" stroke="#aaa" stroke-width="1"/>
+    <!-- Left arrow button (points LEFT) -->
+    <rect width="17" height="17" fill="#ece9d8" stroke="#888"/>
+    <polygon points="11,5 6,8.5 11,12" fill="#333"/>
+    <!-- Right arrow button (points RIGHT) -->
+    <rect x="697" width="17" height="17" fill="#ece9d8" stroke="#888"/>
+    <polygon points="703,5 708,8.5 703,12" fill="#333"/>
+    <!-- Thumb -->
+    <rect x="160" y="2" width="90" height="13" fill="#d4d0c8" stroke="#999" rx="1"/>
+    <rect x="161" y="3" width="88" height="6" fill="#ffffff" opacity="0.4" rx="1"/>
+  </g>
+
+  <!-- Corner intersection box -->
+  <rect x="718" y="264" width="17" height="17" fill="#ece9d8" stroke="#aaa" stroke-width="1"/>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" shape-rendering="crispEdges">
+  <!-- Classic Windows Red Toolbox (16x16 pixel art) -->
+  <!-- Metal Handle -->
+  <rect x="6" y="2" width="4" height="2" fill="none" stroke="#707070" stroke-width="1"/>
+  <rect x="7" y="1" width="2" height="1" fill="#FFFFFF"/>
+
+  <!-- Toolbox Lid (Red Beveled) -->
+  <polygon points="1,6 4,4 12,4 15,6" fill="#D32F2F"/>
+  <line x1="4" y1="4" x2="12" y2="4" stroke="#FF7961"/>
+  <line x1="1" y1="6" x2="15" y2="6" stroke="#B71C1C"/>
+
+  <!-- Toolbox Body -->
+  <rect x="1" y="6" width="14" height="8" fill="#C62828"/>
+  <!-- Highlight on left, shadow on right and bottom -->
+  <rect x="1" y="6" width="1" height="8" fill="#FF8A80"/>
+  <rect x="14" y="6" width="1" height="8" fill="#5C0000"/>
+  <rect x="1" y="13" width="14" height="1" fill="#3E0000"/>
+
+  <!-- Center Gold Latches -->
+  <rect x="4" y="6" width="2" height="3" fill="#FFD54F"/>
+  <rect x="10" y="6" width="2" height="3" fill="#FFD54F"/>
+  <rect x="4" y="7" width="2" height="1" fill="#FF8F00"/>
+  <rect x="10" y="7" width="2" height="1" fill="#FF8F00"/>
+
+  <!-- Horizontal Metal Trim -->
+  <rect x="2" y="9" width="12" height="1" fill="#8E0000"/>
+</svg>

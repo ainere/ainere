@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="20" height="20" shape-rendering="crispEdges">
+  <!-- Classic XP Program / Workspace Folder Icon (16x16 pixel art) -->
+  <!-- Folder Back Tab -->
+  <rect x="1" y="2" width="6" height="3" fill="#D89818"/>
+  <rect x="2" y="3" width="4" height="2" fill="#FFE082"/>
+  
+  <!-- Folder Back Body -->
+  <rect x="1" y="4" width="14" height="10" fill="#CCA020"/>
+
+  <!-- Application Window Popping Out -->
+  <rect x="4" y="1" width="10" height="9" fill="#FFFFFF"/>
+  <rect x="4" y="1" width="10" height="9" fill="none" stroke="#000000" stroke-width="1"/>
+  <!-- Blue Title Bar with close dot -->
+  <rect x="5" y="2" width="8" height="2" fill="#0055EA"/>
+  <rect x="11" y="2" width="1" height="1" fill="#FF4040"/>
+  <!-- Window code content lines -->
+  <rect x="6" y="5" width="4" height="1" fill="#308020"/>
+  <rect x="6" y="7" width="6" height="1" fill="#505050"/>
+
+  <!-- Folder Front Flap -->
+  <polygon points="0,15 15,15 16,7 2,7" fill="#FFCC33"/>
+  <polygon points="1,14 14,14 15,8 3,8" fill="#FFE066"/>
+  <!-- Highlights and shadows -->
+  <line x1="2" y1="7" x2="16" y2="7" stroke="#FFF0A0"/>
+  <line x1="0" y1="15" x2="15" y2="15" stroke="#906000"/>
+</svg>
