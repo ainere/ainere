@@ -41,7 +41,9 @@ IdleMode      = Gaming or hibernating
 
 <div align="center">
 
-<img src="./assets/projects/kumo.svg" alt="Kumo - Multi-Model CLI Orchestrator" width="100%" />
+<a href="https://github.com/ainere/Kumo">
+  <img src="./assets/projects/kumo.svg" alt="Kumo - Multi-Model CLI Orchestrator" width="100%" />
+</a>
 
 <br />
 

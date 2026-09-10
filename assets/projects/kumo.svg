@@ -5,36 +5,40 @@
     .sub-text { fill: #8b949e; }
     .body-text { fill: #c9d1d9; }
     .footer-text { fill: #8b949e; }
+    .footer-link { fill: #58a6ff; }
     @media (prefers-color-scheme: light) {
       .card-bg { fill: #ffffff; stroke: #d0d7de; }
       .title-text { fill: #1f2328; }
       .sub-text { fill: #656d76; }
       .body-text { fill: #1f2328; }
       .footer-text { fill: #656d76; }
+      .footer-link { fill: #0969da; }
     }
   </style>
 
-  <!-- Background -->
-  <rect x="0.5" y="0.5" width="739" height="147" rx="8" ry="8" class="card-bg" stroke-width="1"/>
+  <a href="https://github.com/ainere/Kumo" target="_blank" style="text-decoration: none;">
+    <!-- Background -->
+    <rect x="0.5" y="0.5" width="739" height="147" rx="8" ry="8" class="card-bg" stroke-width="1"/>
 
-  <!-- Pill Badge: In Development -->
-  <g transform="translate(619, 14)">
-    <rect x="0.5" y="0.5" width="101" height="21" rx="10.5" fill="#f59e0b" fill-opacity="0.12" stroke="#d97706" stroke-opacity="0.45" stroke-width="1"/>
-    <text x="51" y="14.5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="#fbbf24" text-anchor="middle">In Development</text>
-  </g>
+    <!-- Pill Badge: In Development -->
+    <g transform="translate(619, 14)">
+      <rect x="0.5" y="0.5" width="101" height="21" rx="10.5" fill="#f59e0b" fill-opacity="0.12" stroke="#d97706" stroke-opacity="0.45" stroke-width="1"/>
+      <text x="51" y="14.5" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="500" fill="#fbbf24" text-anchor="middle">In Development</text>
+    </g>
 
-  <!-- Title & Subtitle -->
-  <text x="20" y="30" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" class="title-text">Kumo</text>
-  <text x="20" y="47" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" class="sub-text">Multi-Model CLI Orchestrator</text>
+    <!-- Title & Subtitle -->
+    <text x="20" y="30" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" class="title-text">Kumo</text>
+    <text x="20" y="47" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" class="sub-text">Multi-Model CLI Orchestrator</text>
 
-  <!-- Description -->
-  <text x="20" y="71" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" class="body-text">
-    <tspan x="20" dy="0">A cross-provider CLI orchestrator built specifically for consumer subscriptions instead of metered API keys.</tspan>
-    <tspan x="20" dy="18">It reserves your expensive reasoning provider's subscription for architecture and review, while offloading high-volume</tspan>
-    <tspan x="20" dy="18">context reading and code execution to a cost-effective, high-throughput provider.</tspan>
-  </text>
+    <!-- Description -->
+    <text x="20" y="71" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12.5" class="body-text">
+      <tspan x="20" dy="0">A cross-provider CLI orchestrator built specifically for consumer subscriptions instead of metered API keys.</tspan>
+      <tspan x="20" dy="18">It reserves your expensive reasoning provider's subscription for architecture and review, while offloading high-volume</tspan>
+      <tspan x="20" dy="18">context reading and code execution to a cost-effective, high-throughput provider.</tspan>
+    </text>
 
-  <!-- Footer -->
-  <text x="20" y="132" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" class="footer-text">JavaScript · Node.js · CLI Tooling</text>
-  <text x="720" y="132" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-style="italic" class="footer-text" text-anchor="end">(Personal application - Soon public)</text>
+    <!-- Footer -->
+    <text x="20" y="132" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace" font-size="11" class="footer-text">JavaScript · Node.js · CLI Tooling</text>
+    <text x="720" y="132" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="500" class="footer-link" text-anchor="end">ainere/Kumo ↗</text>
+  </a>
 </svg>
