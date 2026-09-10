@@ -41,15 +41,15 @@ IdleMode      = Gaming or hibernating
 
 <div align="center">
 
-<img src="./assets/projects/kumo.svg" alt="Kumo - Multi-Model CLI Orchestrator" width="580" />
+<img src="./assets/projects/kumo.svg" alt="Kumo - Multi-Model CLI Orchestrator" width="100%" />
 
 <br />
 
-<img src="./assets/projects/getuserinsights.svg" alt="GetUserInsights - Usability Audit Platform" width="580" />
+<img src="./assets/projects/getuserinsights.svg" alt="GetUserInsights - Usability Audit Platform" width="100%" />
 
 <br />
 
-<img src="./assets/projects/smooth_operators.svg" alt="Smooth Operators - Logistics Tracker" width="580" />
+<img src="./assets/projects/smooth_operators.svg" alt="Smooth Operators - Logistics Tracker" width="100%" />
 
 </div>
 
