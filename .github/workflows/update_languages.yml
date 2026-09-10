@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
 
     steps:
       - name: Checkout repository
@@ -22,13 +24,11 @@ jobs:
           python-version: '3.x'
 
       - name: Generate languages.svg
-        if: "${{ secrets.PAT_TOKEN != '' }}"
-        env:
-          PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
+        if: env.PAT_TOKEN != ''
         run: python .github/scripts/update_languages.py
 
       - name: Commit and push if changed
-        if: "${{ secrets.PAT_TOKEN != '' }}"
+        if: env.PAT_TOKEN != ''
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
