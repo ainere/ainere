@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="740" height="324" viewBox="0 0 740 324">
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="292" viewBox="0 0 740 292">
   <defs>
     <linearGradient id="xpTitleGrad" x1="0%" y1="0%" x2="0%" y2="100%">
       <stop offset="0%" stop-color="#1A4A15"/>
@@ -22,10 +22,10 @@
     </filter>
   </defs>
 
-  <rect x="1" y="1" width="738" height="322" fill="#ece9d8" rx="4" ry="4"/>
-  <path d="M1,5 A4,4 0 0,1 5,1 L735,1 A4,4 0 0,1 739,5 L739,323 L1,323 Z" 
+  <rect x="1" y="1" width="738" height="290" fill="#ece9d8" rx="4" ry="4"/>
+  <path d="M1,5 A4,4 0 0,1 5,1 L735,1 A4,4 0 0,1 739,5 L739,291 L1,291 Z" 
         fill="none" stroke="#ffffff" stroke-width="1.5"/>
-  <path d="M2,323 L738,323 L738,5 A4,4 0 0,0 735,2 L5,2 A4,4 0 0,0 2,5 Z" 
+  <path d="M2,291 L738,291 L738,5 A4,4 0 0,0 735,2 L5,2 A4,4 0 0,0 2,5 Z" 
         fill="none" stroke="#888888" stroke-width="1.2"/>
 
   <!-- TITLE BAR -->
@@ -109,11 +109,11 @@
   </g>
 
   <!-- Client Area -->
-  <rect x="4" y="51" width="714" height="251" fill="#000000" filter="url(#consoleInset)"/>
+  <rect x="4" y="51" width="714" height="219" fill="#000000" filter="url(#consoleInset)"/>
   <line x1="4" y1="51" x2="718" y2="51" stroke="#333" stroke-width="1"/>
-  <line x1="4" y1="51" x2="4" y2="302" stroke="#333" stroke-width="1"/>
-  <line x1="718" y1="51" x2="718" y2="302" stroke="#111" stroke-width="1"/>
-  <line x1="4" y1="302" x2="718" y2="302" stroke="#111" stroke-width="1"/>
+  <line x1="4" y1="51" x2="4" y2="270" stroke="#333" stroke-width="1"/>
+  <line x1="718" y1="51" x2="718" y2="270" stroke="#111" stroke-width="1"/>
+  <line x1="4" y1="270" x2="718" y2="270" stroke="#111" stroke-width="1"/>
 
   <!-- Console Text -->
   <g font-family="'Lucida Console', 'Consolas', 'Courier New', monospace" font-size="12" fill="#FFFFFF">
@@ -137,39 +137,31 @@
         <rect x="16" y="181" width="540" height="8" rx="3" ry="3" />
       </clipPath>
       <rect x="16" y="181" width="540" height="8" fill="#222222" />
-      <rect x="16.0" y="181" width="223.4" height="8" fill="#3572A5" /><rect x="239.4" y="181" width="113.5" height="8" fill="#e34c26" /><rect x="352.9" y="181" width="75.8" height="8" fill="#f1e05a" /><rect x="428.7" y="181" width="53.2" height="8" fill="#3178c6" /><rect x="481.9" y="181" width="45.5" height="8" fill="#b07219" /><rect x="527.5" y="181" width="22.7" height="8" fill="#663399" /><rect x="550.2" y="181" width="4.8" height="8" fill="#A97BFF" /><rect x="555.0" y="181" width="1.0" height="8" fill="#555555" />
+      <rect x="16.0" y="181" width="540.0" height="8" fill="#3572A5" />
     </g>
 
     <!-- Grid -->
-    <circle cx="24" cy="202" r="3.5" fill="#3572A5" /><text x="32" y="206"><tspan fill="#FFFFFF">Python</tspan><tspan x="126" fill="#AAAAAA"> 41.37%</tspan></text>
-    <circle cx="264" cy="202" r="3.5" fill="#e34c26" /><text x="272" y="206"><tspan fill="#FFFFFF">HTML</tspan><tspan x="366" fill="#AAAAAA"> 21.02%</tspan></text>
-    <circle cx="24" cy="218" r="3.5" fill="#f1e05a" /><text x="32" y="222"><tspan fill="#FFFFFF">JavaScript</tspan><tspan x="126" fill="#AAAAAA"> 14.04%</tspan></text>
-    <circle cx="264" cy="218" r="3.5" fill="#3178c6" /><text x="272" y="222"><tspan fill="#FFFFFF">TypeScript</tspan><tspan x="366" fill="#AAAAAA">  9.85%</tspan></text>
-    <circle cx="24" cy="234" r="3.5" fill="#b07219" /><text x="32" y="238"><tspan fill="#FFFFFF">Java</tspan><tspan x="126" fill="#AAAAAA">  8.43%</tspan></text>
-    <circle cx="264" cy="234" r="3.5" fill="#663399" /><text x="272" y="238"><tspan fill="#FFFFFF">CSS</tspan><tspan x="366" fill="#AAAAAA">  4.21%</tspan></text>
-    <circle cx="24" cy="250" r="3.5" fill="#A97BFF" /><text x="32" y="254"><tspan fill="#FFFFFF">Kotlin</tspan><tspan x="126" fill="#AAAAAA">  0.90%</tspan></text>
-    <circle cx="264" cy="250" r="3.5" fill="#555555" /><text x="272" y="254"><tspan fill="#FFFFFF">C</tspan><tspan x="366" fill="#AAAAAA">  0.13%</tspan></text>
-    <circle cx="24" cy="266" r="3.5" fill="#6E4C13" /><text x="32" y="270"><tspan fill="#FFFFFF">Assembly</tspan><tspan x="126" fill="#AAAAAA">  0.05%</tspan></text>
+    <circle cx="24" cy="202" r="3.5" fill="#3572A5" /><text x="32" y="206"><tspan fill="#FFFFFF">Python</tspan><tspan x="126" fill="#AAAAAA">100.00%</tspan></text>
 
     <!-- Prompt -->
-    <text x="16" y="293">
+    <text x="16" y="261">
       <tspan fill="#CCCCCC">C:\Documents and Settings\Kan&gt;</tspan><tspan fill="#FFFFFF" font-weight="bold">▌<animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></tspan>
     </text>
   </g>
 
   <!-- Vertical Scrollbar -->
   <g transform="translate(718, 51)">
-    <rect width="17" height="251" fill="#ece9d8" stroke="#aaa" stroke-width="1"/>
+    <rect width="17" height="219" fill="#ece9d8" stroke="#aaa" stroke-width="1"/>
     <rect width="17" height="17" fill="#ece9d8" stroke="#888"/>
     <polygon points="5,11 12,11 8.5,6" fill="#333"/>
-    <rect y="234" width="17" height="17" fill="#ece9d8" stroke="#888"/>
-    <polygon points="5,240 12,240 8.5,245" fill="#333"/>
+    <rect y="202" width="17" height="17" fill="#ece9d8" stroke="#888"/>
+    <polygon points="5,208 12,208 8.5,213" fill="#333"/>
     <rect x="2" y="22" width="13" height="42" fill="#d4d0c8" stroke="#999" rx="1"/>
     <rect x="3" y="23" width="11" height="20" fill="#ffffff" opacity="0.4" rx="1"/>
   </g>
 
   <!-- Horizontal Scrollbar -->
-  <g transform="translate(4, 302)">
+  <g transform="translate(4, 270)">
     <rect width="714" height="17" fill="#ece9d8" stroke="#aaa" stroke-width="1"/>
     <rect width="17" height="17" fill="#ece9d8" stroke="#888"/>
     <polygon points="11,5 6,8.5 11,12" fill="#333"/>
@@ -178,5 +170,5 @@
     <rect x="180" y="2" width="90" height="13" fill="#d4d0c8" stroke="#999" rx="1"/>
     <rect x="181" y="3" width="88" height="6" fill="#ffffff" opacity="0.4" rx="1"/>
   </g>
-  <rect x="718" y="302" width="17" height="17" fill="#ece9d8" stroke="#aaa" stroke-width="1"/>
+  <rect x="718" y="270" width="17" height="17" fill="#ece9d8" stroke="#aaa" stroke-width="1"/>
 </svg>
