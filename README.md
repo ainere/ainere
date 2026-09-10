@@ -39,56 +39,19 @@ IdleMode      = Gaming or hibernating
 
 <h2 align="center"><img src="./assets/icons/projects.svg" width="20" height="20" align="absmiddle" /> projects</h2>
 
-<table width="100%">
-<tr>
-<td>
+<div align="center">
 
-<img src="https://img.shields.io/badge/In_Development-d97706?style=flat-square" align="right" />
+<img src="./assets/projects/kumo.svg" alt="Kumo - Multi-Model CLI Orchestrator" width="580" />
 
-### **Kumo**
-<sub>Multi-Model CLI Orchestrator</sub>
+<br />
 
-A cross-provider CLI orchestrator built specifically for consumer subscriptions instead of metered API keys. It reserves your expensive reasoning provider's subscription for architecture and review, while offloading high-volume context reading and code execution to a cost-effective, high-throughput provider.
+<img src="./assets/projects/getuserinsights.svg" alt="GetUserInsights - Usability Audit Platform" width="580" />
 
-`JavaScript` &bull; `Node.js` &bull; `CLI Tooling` &nbsp;&bull;&nbsp; *(Personal application &mdash; Soon public)*
+<br />
 
-</td>
-</tr>
-</table>
+<img src="./assets/projects/smooth_operators.svg" alt="Smooth Operators - Logistics Tracker" width="580" />
 
-<table width="100%">
-<tr>
-<td>
-
-<img src="https://img.shields.io/badge/Client_Project_%C2%B7_Private-334155?style=flat-square" align="right" />
-
-### **GetUserInsights**
-<sub>Usability Audit Platform</sub>
-
-A usability analysis platform that helps product teams pinpoint conversion blockers without the overhead of manual user research. It automatically recruits targeted testers for think-aloud sessions, extracts exact video clips of user struggle, and synthesizes AI-driven audit reports with actionable design recommendations.
-
-`Python` &bull; `Flask` &bull; `SQLite` &bull; `Tailwind CSS` &nbsp;&bull;&nbsp; *(Production deployment &mdash; Proprietary)*
-
-</td>
-</tr>
-</table>
-
-<table width="100%">
-<tr>
-<td>
-
-<img src="https://img.shields.io/badge/Coursework_%C2%B7_Private-334155?style=flat-square" align="right" />
-
-### **Smooth Operators**
-<sub>Logistics Tracker</sub>
-
-A desktop logistics and dispatch management platform built for database systems coursework. Features automated delivery route calculation with dynamic distance-based pricing integrated via the Google Maps API, alongside role-based operational dashboards tailored for fleet dispatchers and administrators.
-
-`Java` &bull; `JavaFX` &bull; `MySQL` &bull; `JDBC` &bull; `Google Maps API` &nbsp;&bull;&nbsp; *(Academic repository)*
-
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
