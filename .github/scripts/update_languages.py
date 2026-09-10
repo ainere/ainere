@@ -64,7 +64,7 @@ EXT_MAP = {
 }
 
 def get_token():
-    return os.environ.get("GITHUB_TOKEN") or os.environ.get("PAT_TOKEN")
+    return os.environ.get("PAT_TOKEN") or os.environ.get("GITHUB_TOKEN")
 
 def fetch_graphql(query):
     token = get_token()
@@ -185,8 +185,12 @@ def main():
                         languages[lang_name]["size"] += size
                         total_bytes += size
 
-    if total_bytes == 0:
-        print("No language data found.")
+    # SAFETY GUARD: If only 1 language or small byte count is detected, do NOT overwrite!
+    # This prevents unprivileged/scoped GitHub Actions tokens from overwriting the SVG.
+    if len(languages) <= 2 or total_bytes < 50000:
+        print(f"Safety guard triggered: only found {len(languages)} languages ({total_bytes} bytes). "
+              f"This indicates a token without permission to view account-wide private repositories. "
+              f"Aborting without modifying assets/terminal_toolbox.svg.")
         return
 
     sorted_langs = sorted(languages.items(), key=lambda x: x[1]["size"], reverse=True)
