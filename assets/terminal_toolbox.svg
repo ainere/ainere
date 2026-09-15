@@ -121,7 +121,7 @@
       <tspan fill="#CCCCCC">C:\Documents and Settings\Kan&gt;</tspan>type stack.cfg
     </text>
     
-    <text y="87"><tspan x="16" fill="#4AE371">[Languages]</tspan><tspan x="108" fill="#DDDDDD">Python · C / C++ · x86 Assembly · Java · JS / TS</tspan></text>
+    <text y="87"><tspan x="16" fill="#4AE371">[Languages]</tspan><tspan x="108" fill="#DDDDDD">Python · C / C++ · Java · JS / TS</tspan></text>
     <text y="103"><tspan x="16" fill="#4AE371">[Frameworks]</tspan><tspan x="108" fill="#DDDDDD">FastAPI · Flask · React · Tailwind CSS</tspan></text>
     <text y="119"><tspan x="16" fill="#4AE371">[Runtime/DB]</tspan><tspan x="108" fill="#DDDDDD">Docker · Git · SQLite · MySQL · JavaFX</tspan></text>
     <text y="135"><tspan x="16" fill="#4AE371">[Focus Area]</tspan><tspan x="108" fill="#DDDDDD">LLM Systems · GPU Architecture · CUDA</tspan></text>
