@@ -42,6 +42,7 @@ query {
 """
 
 EXCLUDE_REPOS = {"CSARCH2-Case-Study-1-Integer-Machine"}
+EXCLUDE_LANGUAGES = {"Assembly", "x86 Assembly"}
 
 EXT_MAP = {
     ".ts": ("TypeScript", "#3178c6"),
@@ -125,7 +126,7 @@ def main():
             node = edge.get("node", {})
             name = node.get("name")
             color = node.get("color") or "#888888"
-            if name:
+            if name and name not in EXCLUDE_LANGUAGES:
                 if name not in languages:
                     languages[name] = {"size": 0, "color": color}
                 languages[name]["size"] += size
@@ -158,10 +159,6 @@ def main():
                     if fname:
                         authored_files.add(fname)
 
-        # Special co-authorship cases (e.g. LBYARCH2-MCO2 kernel.asm declared in file header)
-        if repo_full == "djmarcaida/LBYARCH2-MCO2":
-            authored_files.add("kernel.asm")
-
         # Fetch tree to get exact file sizes
         tree_data = fetch_rest(f"repos/{repo_full}/git/trees/{default_branch}?recursive=1")
         if not tree_data and default_branch != "master":
@@ -180,10 +177,11 @@ def main():
                     ext = "." + path.split(".")[-1].lower() if "." in path else ""
                     if ext in EXT_MAP:
                         lang_name, lang_color = EXT_MAP[ext]
-                        if lang_name not in languages:
-                            languages[lang_name] = {"size": 0, "color": lang_color}
-                        languages[lang_name]["size"] += size
-                        total_bytes += size
+                        if lang_name not in EXCLUDE_LANGUAGES:
+                            if lang_name not in languages:
+                                languages[lang_name] = {"size": 0, "color": lang_color}
+                            languages[lang_name]["size"] += size
+                            total_bytes += size
 
     # SAFETY GUARD: If only 1 language or small byte count is detected, do NOT overwrite!
     # This prevents unprivileged/scoped GitHub Actions tokens from overwriting the SVG.
@@ -382,7 +380,7 @@ def main():
       <tspan fill="#CCCCCC">C:\\Documents and Settings\\Kan&gt;</tspan>type stack.cfg
     </text>
     
-    <text y="87"><tspan x="16" fill="#4AE371">[Languages]</tspan><tspan x="108" fill="#DDDDDD">Python · C / C++ · x86 Assembly · Java · JS / TS</tspan></text>
+    <text y="87"><tspan x="16" fill="#4AE371">[Languages]</tspan><tspan x="108" fill="#DDDDDD">Python · C / C++ · Java · JS / TS</tspan></text>
     <text y="103"><tspan x="16" fill="#4AE371">[Frameworks]</tspan><tspan x="108" fill="#DDDDDD">FastAPI · Flask · React · Tailwind CSS</tspan></text>
     <text y="119"><tspan x="16" fill="#4AE371">[Runtime/DB]</tspan><tspan x="108" fill="#DDDDDD">Docker · Git · SQLite · MySQL · JavaFX</tspan></text>
     <text y="135"><tspan x="16" fill="#4AE371">[Focus Area]</tspan><tspan x="108" fill="#DDDDDD">LLM Systems · GPU Architecture · CUDA</tspan></text>
