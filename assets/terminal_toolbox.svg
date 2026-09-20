@@ -137,18 +137,18 @@
         <rect x="16" y="181" width="540" height="8" rx="3" ry="3" />
       </clipPath>
       <rect x="16" y="181" width="540" height="8" fill="#222222" />
-      <rect x="16.0" y="181" width="209.1" height="8" fill="#3572A5" /><rect x="225.1" y="181" width="106.2" height="8" fill="#e34c26" /><rect x="331.3" y="181" width="105.8" height="8" fill="#f1e05a" /><rect x="437.1" y="181" width="49.8" height="8" fill="#3178c6" /><rect x="487.0" y="181" width="42.6" height="8" fill="#b07219" /><rect x="529.6" y="181" width="21.3" height="8" fill="#663399" /><rect x="550.8" y="181" width="4.5" height="8" fill="#A97BFF" /><rect x="555.4" y="181" width="0.6" height="8" fill="#555555" />
+      <rect x="16.0" y="181" width="208.9" height="8" fill="#3572A5" /><rect x="224.9" y="181" width="112.8" height="8" fill="#f1e05a" /><rect x="337.7" y="181" width="103.0" height="8" fill="#e34c26" /><rect x="440.8" y="181" width="48.3" height="8" fill="#3178c6" /><rect x="489.0" y="181" width="41.3" height="8" fill="#b07219" /><rect x="530.4" y="181" width="20.6" height="8" fill="#663399" /><rect x="551.0" y="181" width="4.4" height="8" fill="#A97BFF" /><rect x="555.4" y="181" width="0.6" height="8" fill="#555555" />
     </g>
 
     <!-- Grid -->
-    <circle cx="24" cy="202" r="3.5" fill="#3572A5" /><text x="32" y="206"><tspan fill="#FFFFFF">Python</tspan><tspan x="126" fill="#AAAAAA"> 38.72%</tspan></text>
-    <circle cx="264" cy="202" r="3.5" fill="#e34c26" /><text x="272" y="206"><tspan fill="#FFFFFF">HTML</tspan><tspan x="366" fill="#AAAAAA"> 19.67%</tspan></text>
-    <circle cx="24" cy="218" r="3.5" fill="#f1e05a" /><text x="32" y="222"><tspan fill="#FFFFFF">JavaScript</tspan><tspan x="126" fill="#AAAAAA"> 19.59%</tspan></text>
-    <circle cx="264" cy="218" r="3.5" fill="#3178c6" /><text x="272" y="222"><tspan fill="#FFFFFF">TypeScript</tspan><tspan x="366" fill="#AAAAAA">  9.22%</tspan></text>
-    <circle cx="24" cy="234" r="3.5" fill="#b07219" /><text x="32" y="238"><tspan fill="#FFFFFF">Java</tspan><tspan x="126" fill="#AAAAAA">  7.89%</tspan></text>
-    <circle cx="264" cy="234" r="3.5" fill="#663399" /><text x="272" y="238"><tspan fill="#FFFFFF">CSS</tspan><tspan x="366" fill="#AAAAAA">  3.94%</tspan></text>
-    <circle cx="24" cy="250" r="3.5" fill="#A97BFF" /><text x="32" y="254"><tspan fill="#FFFFFF">Kotlin</tspan><tspan x="126" fill="#AAAAAA">  0.84%</tspan></text>
-    <circle cx="264" cy="250" r="3.5" fill="#555555" /><text x="272" y="254"><tspan fill="#FFFFFF">C</tspan><tspan x="366" fill="#AAAAAA">  0.12%</tspan></text>
+    <circle cx="24" cy="202" r="3.5" fill="#3572A5" /><text x="32" y="206"><tspan fill="#FFFFFF">Python</tspan><tspan x="126" fill="#AAAAAA"> 38.69%</tspan></text>
+    <circle cx="264" cy="202" r="3.5" fill="#f1e05a" /><text x="272" y="206"><tspan fill="#FFFFFF">JavaScript</tspan><tspan x="366" fill="#AAAAAA"> 20.89%</tspan></text>
+    <circle cx="24" cy="218" r="3.5" fill="#e34c26" /><text x="32" y="222"><tspan fill="#FFFFFF">HTML</tspan><tspan x="126" fill="#AAAAAA"> 19.08%</tspan></text>
+    <circle cx="264" cy="218" r="3.5" fill="#3178c6" /><text x="272" y="222"><tspan fill="#FFFFFF">TypeScript</tspan><tspan x="366" fill="#AAAAAA">  8.94%</tspan></text>
+    <circle cx="24" cy="234" r="3.5" fill="#b07219" /><text x="32" y="238"><tspan fill="#FFFFFF">Java</tspan><tspan x="126" fill="#AAAAAA">  7.65%</tspan></text>
+    <circle cx="264" cy="234" r="3.5" fill="#663399" /><text x="272" y="238"><tspan fill="#FFFFFF">CSS</tspan><tspan x="366" fill="#AAAAAA">  3.82%</tspan></text>
+    <circle cx="24" cy="250" r="3.5" fill="#A97BFF" /><text x="32" y="254"><tspan fill="#FFFFFF">Kotlin</tspan><tspan x="126" fill="#AAAAAA">  0.81%</tspan></text>
+    <circle cx="264" cy="250" r="3.5" fill="#555555" /><text x="272" y="254"><tspan fill="#FFFFFF">C</tspan><tspan x="366" fill="#AAAAAA">  0.11%</tspan></text>
 
     <!-- Prompt -->
     <text x="16" y="277">
