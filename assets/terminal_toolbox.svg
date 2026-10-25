@@ -137,21 +137,21 @@
         <rect x="16" y="181" width="540" height="8" rx="3" ry="3" />
       </clipPath>
       <rect x="16" y="181" width="540" height="8" fill="#222222" />
-      <rect x="16.0" y="181" width="305.3" height="8" fill="#f1e05a" /><rect x="321.3" y="181" width="120.4" height="8" fill="#3572A5" /><rect x="441.7" y="181" width="55.7" height="8" fill="#e34c26" /><rect x="497.4" y="181" width="22.9" height="8" fill="#3178c6" /><rect x="520.3" y="181" width="19.6" height="8" fill="#b07219" /><rect x="540.0" y="181" width="9.8" height="8" fill="#663399" /><rect x="549.7" y="181" width="3.5" height="8" fill="#A97BFF" /><rect x="553.2" y="181" width="2.8" height="8" fill="#555555" />
+      <rect x="16.0" y="181" width="306.3" height="8" fill="#f1e05a" /><rect x="322.3" y="181" width="114.9" height="8" fill="#3572A5" /><rect x="437.2" y="181" width="53.2" height="8" fill="#e34c26" /><rect x="490.4" y="181" width="29.6" height="8" fill="#3178c6" /><rect x="520.0" y="181" width="18.7" height="8" fill="#b07219" /><rect x="538.7" y="181" width="11.4" height="8" fill="#663399" /><rect x="550.0" y="181" width="3.5" height="8" fill="#A97BFF" /><rect x="553.5" y="181" width="2.5" height="8" fill="#555555" />
     </g>
 
     <!-- Grid -->
-    <circle cx="24" cy="202" r="3.5" fill="#f1e05a" /><text x="32" y="206"><tspan fill="#FFFFFF">JavaScript</tspan><tspan x="126" fill="#AAAAAA"> 56.54%</tspan></text>
-    <circle cx="264" cy="202" r="3.5" fill="#3572A5" /><text x="272" y="206"><tspan fill="#FFFFFF">Python</tspan><tspan x="366" fill="#AAAAAA"> 22.30%</tspan></text>
-    <circle cx="24" cy="218" r="3.5" fill="#e34c26" /><text x="32" y="222"><tspan fill="#FFFFFF">HTML</tspan><tspan x="126" fill="#AAAAAA"> 10.31%</tspan></text>
-    <circle cx="264" cy="218" r="3.5" fill="#3178c6" /><text x="272" y="222"><tspan fill="#FFFFFF">TypeScript</tspan><tspan x="366" fill="#AAAAAA">  4.24%</tspan></text>
-    <circle cx="24" cy="234" r="3.5" fill="#b07219" /><text x="32" y="238"><tspan fill="#FFFFFF">Java</tspan><tspan x="126" fill="#AAAAAA">  3.63%</tspan></text>
-    <circle cx="264" cy="234" r="3.5" fill="#663399" /><text x="272" y="238"><tspan fill="#FFFFFF">CSS</tspan><tspan x="366" fill="#AAAAAA">  1.81%</tspan></text>
-    <circle cx="24" cy="250" r="3.5" fill="#A97BFF" /><text x="32" y="254"><tspan fill="#FFFFFF">Kotlin</tspan><tspan x="126" fill="#AAAAAA">  0.39%</tspan></text>
-    <circle cx="264" cy="250" r="3.5" fill="#555555" /><text x="272" y="254"><tspan fill="#FFFFFF">C</tspan><tspan x="366" fill="#AAAAAA">  0.31%</tspan></text>
-    <circle cx="24" cy="266" r="3.5" fill="#012456" /><text x="32" y="270"><tspan fill="#FFFFFF">PowerShell</tspan><tspan x="126" fill="#AAAAAA">  0.18%</tspan></text>
-    <circle cx="264" cy="266" r="3.5" fill="#89e051" /><text x="272" y="270"><tspan fill="#FFFFFF">Shell</tspan><tspan x="366" fill="#AAAAAA">  0.14%</tspan></text>
-    <circle cx="24" cy="282" r="3.5" fill="#C1F12E" /><text x="32" y="286"><tspan fill="#FFFFFF">Batchfile</tspan><tspan x="126" fill="#AAAAAA">  0.14%</tspan></text>
+    <circle cx="24" cy="202" r="3.5" fill="#f1e05a" /><text x="32" y="206"><tspan fill="#FFFFFF">JavaScript</tspan><tspan x="126" fill="#AAAAAA"> 56.73%</tspan></text>
+    <circle cx="264" cy="202" r="3.5" fill="#3572A5" /><text x="272" y="206"><tspan fill="#FFFFFF">Python</tspan><tspan x="366" fill="#AAAAAA"> 21.27%</tspan></text>
+    <circle cx="24" cy="218" r="3.5" fill="#e34c26" /><text x="32" y="222"><tspan fill="#FFFFFF">HTML</tspan><tspan x="126" fill="#AAAAAA">  9.85%</tspan></text>
+    <circle cx="264" cy="218" r="3.5" fill="#3178c6" /><text x="272" y="222"><tspan fill="#FFFFFF">TypeScript</tspan><tspan x="366" fill="#AAAAAA">  5.48%</tspan></text>
+    <circle cx="24" cy="234" r="3.5" fill="#b07219" /><text x="32" y="238"><tspan fill="#FFFFFF">Java</tspan><tspan x="126" fill="#AAAAAA">  3.46%</tspan></text>
+    <circle cx="264" cy="234" r="3.5" fill="#663399" /><text x="272" y="238"><tspan fill="#FFFFFF">CSS</tspan><tspan x="366" fill="#AAAAAA">  2.10%</tspan></text>
+    <circle cx="24" cy="250" r="3.5" fill="#A97BFF" /><text x="32" y="254"><tspan fill="#FFFFFF">Kotlin</tspan><tspan x="126" fill="#AAAAAA">  0.37%</tspan></text>
+    <circle cx="264" cy="250" r="3.5" fill="#555555" /><text x="272" y="254"><tspan fill="#FFFFFF">C</tspan><tspan x="366" fill="#AAAAAA">  0.30%</tspan></text>
+    <circle cx="24" cy="266" r="3.5" fill="#012456" /><text x="32" y="270"><tspan fill="#FFFFFF">PowerShell</tspan><tspan x="126" fill="#AAAAAA">  0.17%</tspan></text>
+    <circle cx="264" cy="266" r="3.5" fill="#89e051" /><text x="272" y="270"><tspan fill="#FFFFFF">Shell</tspan><tspan x="366" fill="#AAAAAA">  0.13%</tspan></text>
+    <circle cx="24" cy="282" r="3.5" fill="#C1F12E" /><text x="32" y="286"><tspan fill="#FFFFFF">Batchfile</tspan><tspan x="126" fill="#AAAAAA">  0.13%</tspan></text>
 
     <!-- Prompt -->
     <text x="16" y="309">
